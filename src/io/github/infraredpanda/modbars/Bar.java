@@ -2,16 +2,16 @@ package io.github.infraredpanda.modbars;
 
 public class Bar
 {
-	int calories;
-	int fat;
-	int cholesterol;
-	int sodium;
-	int carbs;
-	int fiber;
-	int sugar;
-	int protein;
+	double calories;
+	double fat;
+	double cholesterol;
+	double sodium;
+	double carbs;
+	double fiber;
+	double sugar;
+	double protein;
 
-	public Bar(int cal, int fat, int cholesterol, int sodium, int carbs, int fiber, int sugar, int protein)
+	public Bar(double cal, double fat, double cholesterol, double sodium, double carbs, double fiber, double sugar, double protein)
 	{
 		this.calories = cal;
 		this.fat = fat;

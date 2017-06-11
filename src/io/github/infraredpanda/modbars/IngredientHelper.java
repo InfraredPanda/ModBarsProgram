@@ -17,26 +17,26 @@ public class IngredientHelper
 	private void loadData(String fileName)
 	{
 		String name;
-		int servings;
-		int cal;
-		int fat;
-		int cholesterol;
-		int sodium;
-		int carbs;
-		int fiber;
-		int sugar;
-		int protein;
+		double servings;
+		double cal;
+		double fat;
+		double cholesterol;
+		double sodium;
+		double carbs;
+		double fiber;
+		double sugar;
+		double protein;
 
 		Scanner inFile;
 		try
 		{
 			inFile = new Scanner(new File(fileName));
 
-			int numIngredients = inFile.nextInt();
+			double numIngredients = inFile.nextInt();
 
 			inFile.nextLine();// needed to flush EOL
 
-			for (int i = 0; i < numIngredients; i++)
+			for (double i = 0; i < numIngredients; i++)
 			{
 				name = inFile.nextLine();
 				servings = inFile.nextInt();

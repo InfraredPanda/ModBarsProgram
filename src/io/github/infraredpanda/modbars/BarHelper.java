@@ -5,30 +5,30 @@ import java.util.ArrayList;
 public class BarHelper
 {
 	String name;
-	int servings;
-	int calories;
-	int fat;
-	int cholesterol;
-	int sodium;
-	int carbs;
-	int fiber;
-	int sugar;
-	int protein;
+	double servings;
+	double calories;
+	double fat;
+	double cholesterol;
+	double sodium;
+	double carbs;
+	double fiber;
+	double sugar;
+	double protein;
 
 	public Bar calculateTotals(ArrayList<Ingredient> ingredientList)
 	{
-		int cal = 0;
-		int fat = 0;
-		int cholesterol = 0;
-		int sodium = 0;
-		int carbs = 0;
-		int fiber = 0;
-		int sugar = 0;
-		int protein = 0;
+		double cal = 0;
+		double fat = 0;
+		double cholesterol = 0;
+		double sodium = 0;
+		double carbs = 0;
+		double fiber = 0;
+		double sugar = 0;
+		double protein = 0;
 
 		for (Ingredient i : ingredientList)
 		{
-			int s = i.getServings();
+			double s = i.getServings();
 			cal += i.getCalories() * s;
 			fat += i.getFat() * s;
 			cholesterol += i.getCholesterol() * s;
