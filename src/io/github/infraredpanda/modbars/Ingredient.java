@@ -4,33 +4,33 @@ public class Ingredient
 {
 	private String name;
 
-	private int servings;
+	private double servings;
 
-	private int calories;
+	private double calories;
 
-	private int fat;
+	private double fat;
 	// private double satfat;
 	// private double transfat;
 	// private double polyfat;
 	// private double monofat;
 
-	private int cholesterol;
+	private double cholesterol;
 
-	private int sodium;
+	private double sodium;
 
-	private int carbs;
-	private int fiber;
-	private int sugar;
+	private double carbs;
+	private double fiber;
+	private double sugar;
 
-	private int protein;
+	private double protein;
 
-	public Ingredient(String name, int servings, int cal, int fat, int cholesterol, int sodium, int carbs, int fiber, int sugar, int protein)
+	public Ingredient(String name, double servings, double cal, double fat2, double cholesterol2, double sodium, double carbs, double fiber, double sugar, double protein)
 	{
 		this.name = name;
 		this.servings = servings;
 		this.calories = cal;
-		this.fat = fat;
-		this.cholesterol = cholesterol;
+		this.fat = fat2;
+		this.cholesterol = cholesterol2;
 		this.sodium = sodium;
 		this.carbs = carbs;
 		this.fiber = fiber;
@@ -38,12 +38,12 @@ public class Ingredient
 		this.protein = protein;
 	}
 
-	public int getServings()
+	public double getServings()
 	{
 		return servings;
 	}
 
-	public void setServings(int servings)
+	public void setServings(double servings)
 	{
 		this.servings = servings;
 	}
@@ -58,82 +58,82 @@ public class Ingredient
 		this.name = name;
 	}
 
-	public int getCalories()
+	public double getCalories()
 	{
 		return calories;
 	}
 
-	public void setCalories(int calories)
+	public void setCalories(double calories)
 	{
 		this.calories = calories;
 	}
 
-	public int getFat()
+	public double getFat()
 	{
 		return fat;
 	}
 
-	public void setFat(int fat)
+	public void setFat(double fat)
 	{
 		this.fat = fat;
 	}
 
-	public int getCholesterol()
+	public double getCholesterol()
 	{
 		return cholesterol;
 	}
 
-	public void setCholesterol(int cholesterol)
+	public void setCholesterol(double cholesterol)
 	{
 		this.cholesterol = cholesterol;
 	}
 
-	public int getSodium()
+	public double getSodium()
 	{
 		return sodium;
 	}
 
-	public void setSodium(int sodium)
+	public void setSodium(double sodium)
 	{
 		this.sodium = sodium;
 	}
 
-	public int getCarbs()
+	public double getCarbs()
 	{
 		return carbs;
 	}
 
-	public void setCarbs(int carbs)
+	public void setCarbs(double carbs)
 	{
 		this.carbs = carbs;
 	}
 
-	public int getFiber()
+	public double getFiber()
 	{
 		return fiber;
 	}
 
-	public void setFiber(int fiber)
+	public void setFiber(double fiber)
 	{
 		this.fiber = fiber;
 	}
 
-	public int getSugar()
+	public double getSugar()
 	{
 		return sugar;
 	}
 
-	public void setSugar(int sugar)
+	public void setSugar(double sugar)
 	{
 		this.sugar = sugar;
 	}
 
-	public int getProtein()
+	public double getProtein()
 	{
 		return protein;
 	}
 
-	public void setProtein(int protein)
+	public void setProtein(double protein)
 	{
 		this.protein = protein;
 	}
