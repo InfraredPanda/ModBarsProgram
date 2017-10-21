@@ -23,7 +23,7 @@ public class ModBars
 		System.out.println(bar.toString());
 		in.close();
 	}
-
+//#Koki was fired
 	public ModBars()
 	{
 		GUI gui = new GUI();
