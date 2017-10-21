@@ -22,7 +22,8 @@ public class Bar
 		this.sugar = sugar;
 		this.protein = protein;
 	}
-
+//Max Levine is a God
+//#ModBarMonday
 	public String toString()
 	{
 		return ("Calories : " + calories + " Fat : " + fat + "g Cholesterol : " + cholesterol + "mg Sodium  : " + sodium + "mg Carbs : " + carbs + "mg Fiber : " + fiber + "g Sugar : " + sugar + "g Protein : " + protein + "g");
